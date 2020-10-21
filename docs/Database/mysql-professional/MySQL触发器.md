@@ -441,6 +441,6 @@ drop trigger t_delete_stu;
 > 假如有一天你的同事聊起触发器，你也能和他们聊聊你对触发器的见解是哈？如果你根据从未了解过此知识呢？那性质就不一样了，相信大家都懂吧！
 
 
-> 上一章[【MySQL存储过程编程】](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/mysql-professional/MySQL存储过程.md)
+> 上一章[【MySQL存储过程编程】](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/mysql-professional/MySQL存储过程.md)
 
-> 下一章[【数据库三大范式】](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/数据库范式.md)
+> 下一章[【数据库三大范式】](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/数据库范式.md)
