@@ -282,6 +282,6 @@ public class TestLocalVariable{
 
 
 
-> 上一章[【Java语言基础】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java语言基础.md)
+> 上一章[【Java语言基础】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java语言基础.md)
 
-> 下一章[【Java循环结构】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java循环结构.md)
+> 下一章[【Java循环结构】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java循环结构.md)
