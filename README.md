@@ -5,7 +5,6 @@
 
 ------
 
-
 **邮箱：** yangl546493589@163.com
 
 **个人声明：** 本仓库记录所学Java不归路中的`知识体系`、`知识扩展进阶`、`数据结构与算法`、`面试经验`、`技术分享`、`第三方优质学习资源`、`互联网行业技术交流`、`互联网大厂技术动态`以及`我的生活`。大家有问题，欢迎与我交流、分享，我期待你的来电！
@@ -19,41 +18,41 @@
 ### 📚  JavaSE基础
 
 - **初级入门** 
-  - [Java的概述与环境搭建教程](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java的概述与环境搭建.md)
-  - [Java的语言基础](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java语言基础.md)
-  - [选择结构与分支结构](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java选择结构与分支结构.md)
-  - [循环结构和流程控制](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java循环结构.md)
-  - [函数调用与递归思想](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java函数.md)
-  - [一维数组与二维数组](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java数组.md)
+  - [Java的概述与环境搭建教程](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java的概述与环境搭建.md)
+  - [Java的语言基础](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java语言基础.md)
+  - [选择结构与分支结构](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java选择结构与分支结构.md)
+  - [循环结构和流程控制](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java循环结构.md)
+  - [函数调用与递归思想](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java函数.md)
+  - [一维数组与二维数组](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java数组.md)
 - **中级入门** 
-  - [面向对象思想、类和构造方法基础](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象.md)
-  - [面向对象三大特性（封装、继承、多态）](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象三大特性.md)
-  - [三个修饰符（abstract、static、final）](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java三个修饰符.md)
-  - [接口思想和接口回调](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java接口.md)
-  - [四大内部类、Object基类、String类](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java内部类与常用类.md)
+  - [面向对象思想、类和构造方法基础](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象.md)
+  - [面向对象三大特性（封装、继承、多态）](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象三大特性.md)
+  - [三个修饰符（abstract、static、final）](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java三个修饰符.md)
+  - [接口思想和接口回调](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java接口.md)
+  - [四大内部类、Object基类、String类](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java内部类与常用类.md)
 - **高级入门** 
-  - [Java集合容器和泛型基础](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java集合.md)
-  - [Java的异常处理机制](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java异常.md)
-  - [Java多线程入门](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java多线程.md)
-  - [JavaIO流](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/JavaIO流.md)
-  - [Java网络编程](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java网络编程.md)
+  - [Java集合容器和泛型基础](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java集合.md)
+  - [Java的异常处理机制](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java异常.md)
+  - [Java多线程入门](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java多线程.md)
+  - [JavaIO流](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/JavaIO流.md)
+  - [Java网络编程](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java网络编程.md)
 - **铺垫级入门** 
-  - [Junit单元测试](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Junit单元测试.md)
-  - [Java反射机制](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java反射机制.md)
-  - [Javadoc文档生成](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Javadoc文档生成.md)
-  - [Java注解](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java注解.md)
-  - [Java枚举](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java枚举.md)
+  - [Junit单元测试](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Junit单元测试.md)
+  - [Java反射机制](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java反射机制.md)
+  - [Javadoc文档生成](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Javadoc文档生成.md)
+  - [Java注解](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java注解.md)
+  - [Java枚举](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java枚举.md)
 
 ### 🛢关系型数据库
 
 - **MySQL数据库（关系型）** 
   - **MySQL基础** 
-    - [MySQL5.7解压版安装教程](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/mysql-professional/MySQL5.7解压版安装教程.md)
-    - [MySQL数据库基础](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/MySQL数据库.md)
-    - [MySQL存储过程编程](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/mysql-professional/MySQL存储过程.md)
-    - [MySQL触发器](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/mysql-professional/MySQL触发器.md)
-    - [数据库三大范式](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/数据库范式.md)
-    - [MySQL基础架构](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/mysql-professional/MySQL基础架构.md)
+    - [MySQL5.7解压版安装教程](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/mysql-professional/MySQL5.7解压版安装教程.md)
+    - [MySQL数据库基础](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/MySQL数据库.md)
+    - [MySQL存储过程编程](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/mysql-professional/MySQL存储过程.md)
+    - [MySQL触发器](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/mysql-professional/MySQL触发器.md)
+    - [数据库三大范式](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/数据库范式.md)
+    - [MySQL基础架构](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/mysql-professional/MySQL基础架构.md)
   - **MySQL高级** 
     - MySQL索引
     - MySQL锁机制
@@ -66,38 +65,38 @@
 ### 🎨前端基础
 
 - **基础** 
-  - [HTML和CSS基础](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/HTML和CSS基础.md)
-  - [正则表达式](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/正则表达式.md)
+  - [HTML和CSS基础](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/HTML和CSS基础.md)
+  - [正则表达式](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/正则表达式.md)
 - **JavaScript** 
-  - [JavaScript基础之ECMAScript](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/JavaScript基础之ECMAScript.md)
-  - [JavaScript之BOM和DOM操作](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/JavaScript之BOM和DOM操作.md)
-  - [JSON](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/JSON.md)
-  - [原生Ajax异步请求](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/Ajax.md)
-  - [jQuery（包含jQuery Ajax）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/jQuery.md)
+  - [JavaScript基础之ECMAScript](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/JavaScript基础之ECMAScript.md)
+  - [JavaScript之BOM和DOM操作](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/JavaScript之BOM和DOM操作.md)
+  - [JSON](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/JSON.md)
+  - [原生Ajax异步请求](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/Ajax.md)
+  - [jQuery（包含jQuery Ajax）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/jQuery.md)
 - **前端页面基础框架** 
-  - [Bootstrap](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/Bootstrap.md)
-  - [BootstrapValidator校验](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/BootstrapValidator校验.md)
-  - [Echarts统计图表](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frontend-Development/Echarts.md)
+  - [Bootstrap](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/Bootstrap.md)
+  - [BootstrapValidator校验](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/BootstrapValidator校验.md)
+  - [Echarts统计图表](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frontend-Development/Echarts.md)
 
 ### 💻  JavaWeb基础
 
-- [JavaWeb阶段知识体系图（总结）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/JavaWeb阶段知识体系图.md)
+- [JavaWeb阶段知识体系图（总结）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/JavaWeb阶段知识体系图.md)
 - **JDBC** 
-  - [JDBC数据库连接](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/JDBC数据库连接.md)
+  - [JDBC数据库连接](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/JDBC数据库连接.md)
 - **tomact服务器** 
-  - [tomact服务器基础和开发步骤](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Server/Tomcat/解决tomact客户端与IDEA的一系列乱码问题.md)
+  - [tomact服务器基础和开发步骤](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Server/Tomcat/解决tomact客户端与IDEA的一系列乱码问题.md)
 - **网络协议** 
-  - [HTTP网络协议](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Computer-Networks/HTTP网络协议.md)
+  - [HTTP网络协议](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Computer-Networks/HTTP网络协议.md)
   - TCP三次握手，四次挥手
 - **Servlet** 
-  - [Servlet基础](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/Servlet基础.md)
-  - [Servlet状态管理（Cookie、Session、ServletContext、Request）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/Servlet状态管理.md)
-  - [BaseServlet模板](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/BaseServlet模板.md)
-  - [Filter过滤器](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/Filter过滤器.md)
-  - [Listener监听器](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/Listener监听器.md)
+  - [Servlet基础](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/Servlet基础.md)
+  - [Servlet状态管理（Cookie、Session、ServletContext、Request）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/Servlet状态管理.md)
+  - [BaseServlet模板](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/BaseServlet模板.md)
+  - [Filter过滤器](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/Filter过滤器.md)
+  - [Listener监听器](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/Listener监听器.md)
 - **JSP** 
-  - [JSP开发（EL表达式、JSTL标签库、分页）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/JSP.md)
-  - [文件上传和文件下载](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Web/文件上传和文件下载.md)
+  - [JSP开发（EL表达式、JSTL标签库、分页）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/JSP.md)
+  - [文件上传和文件下载](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Web/文件上传和文件下载.md)
 
 ### 🆒Maven仓库
 
@@ -108,15 +107,15 @@
 ### 🛠必会工具
 
 - **项目构建工具Maven** 
-  - [Maven应用](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Quick-dev-tools/maven/Maven应用.md)
+  - [Maven应用](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Quick-dev-tools/maven/Maven应用.md)
 - **版本控制工具Git** 
-  - [Git安装教程](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Quick-dev-tools/git/Git安装教程.md)
-  - [Git应用](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Quick-dev-tools/git/Git应用.md)
-  - [.gitignore模板（Java）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Quick-dev-tools/git/.gitignore模板.txt)
-  - [解决GitHub各种缓慢问题方案](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Quick-dev-tools/git/解决GitHub各种缓慢问题.md)
+  - [Git安装教程](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Quick-dev-tools/git/Git安装教程.md)
+  - [Git应用](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Quick-dev-tools/git/Git应用.md)
+  - [.gitignore模板（Java）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Quick-dev-tools/git/.gitignore模板.txt)
+  - [解决GitHub各种缓慢问题方案](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Quick-dev-tools/git/解决GitHub各种缓慢问题.md)
   - 其他
 - **IntelliJ IDEA** 
-  - [IDEA安装教程](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/IntelliJ-IDEA/IDEA安装教程.md)
+  - [IDEA安装教程](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/IntelliJ-IDEA/IDEA安装教程.md)
   - 等待添加各种快捷键、常用设置、插件教程等等......
 - JVM排查工具
   - 其他
@@ -132,8 +131,8 @@
 ### 🗜框架
 
 - **MyBatis** 
-  - [MyBatis基础开发流程](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/mybatis/MyBatis开发流程.md)
-  - [MyBatis高级应用](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/mybatis/MyBatis框架高级应用.md)
+  - [MyBatis基础开发流程](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/mybatis/MyBatis开发流程.md)
+  - [MyBatis高级应用](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/mybatis/MyBatis框架高级应用.md)
   - 其他
 - **日志框架** 
   - Log4j应用
@@ -154,7 +153,7 @@
 
 ### 🏹分布式架构
 
-- [架构演进过程](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/distributed-architecture/架构演进过程.md)
+- [架构演进过程](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/distributed-architecture/架构演进过程.md)
 - 分布式锁
 - 分布式任务
 - 分布式事务
@@ -164,7 +163,7 @@
 
 - **Linux** 
   - 虚拟机与Linux安装教程
-  - [Linux常用命令](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/operating-system/Linux命令大全.md)
+  - [Linux常用命令](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/operating-system/Linux命令大全.md)
   - Linux项目部署流程
   - 其他
 
@@ -227,19 +226,19 @@
 
 - **Spring全家桶** 
   - **Spring** 
-    - [Spring概述和基本环境搭建](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/spring/Spring基本环境搭建.md)
-    - [Spring IOC（控制反转）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/spring/SpringIOC.md)
-    - [Spring DI（依赖注入）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/spring/SpringDI.md)
-    - [Spring AOP（面向切面编程）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/spring/SpringAOP.md)
+    - [Spring概述和基本环境搭建](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/spring/Spring基本环境搭建.md)
+    - [Spring IOC（控制反转）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/spring/SpringIOC.md)
+    - [Spring DI（依赖注入）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/spring/SpringDI.md)
+    - [Spring AOP（面向切面编程）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/spring/SpringAOP.md)
     - 其他
   - **SpringMVC** 
-    - [SpringMVC执行流程（源码分析）](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/spring/SpringMVC执行流程.md)
+    - [SpringMVC执行流程（源码分析）](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/spring/SpringMVC执行流程.md)
     - 其他
   - **SSM** 
-    - [SSM框架整合](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/mybatis/SSM框架整合.md)
+    - [SSM框架整合](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/mybatis/SSM框架整合.md)
     - 其他 
   - **SpringBoot** 
-    - [Springboot入门](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Frame/springboot/Springboot入门.md)
+    - [Springboot入门](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Frame/springboot/Springboot入门.md)
     - Springboot整合
     - 其他
   - **SpringCloud** 
@@ -311,9 +310,9 @@
 
 ### 📐设计模式
 
-- [00-设计模式基础](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/design-mode/00.设计模式基础.md)
-- [02-七大软件设计原则](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/design-mode/七大软件设计原则.md)
-- [03-单例设计模式](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/design-mode/sub-mode_model/01.单例设计模式.md)
+- [00-设计模式基础](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/design-mode/00.设计模式基础.md)
+- [02-七大软件设计原则](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/design-mode/七大软件设计原则.md)
+- [03-单例设计模式](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/design-mode/sub-mode_model/01.单例设计模式.md)
 - 其他
 
 ### 📋项目开发
