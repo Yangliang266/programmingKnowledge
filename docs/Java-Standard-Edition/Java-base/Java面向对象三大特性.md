@@ -48,20 +48,20 @@
 
  - **概念：** 尽可能隐藏对象的内部实现细节，控制对象的修改及访问权限
  - **访问修饰符：** private（可将属性修饰为私有，仅限本类可见）
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/封装.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/封装.png)
 
 
 
 ### 1.3 公共访问方法
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/公共访问方法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/公共访问方法.png)
 
 
 
 ### 1.4 过滤有效数据
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/过滤有效数据.png)
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/get和set方法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/过滤有效数据.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/get和set方法.png)
 
 <font color="red">**注意：**</font>外部访问只可以访问公共空间，不可以直接访问属性设置为private的私有空间，而get、set方法是外界访问对象私有属性的唯一通道，方法内部可对数据进行检测和过滤
 <a id="2"> </a>
@@ -83,7 +83,7 @@
 
 ### 2.3 父类的抽象
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/父类的抽象.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/父类的抽象.png)
 
 
 
@@ -97,7 +97,7 @@
 
 ### 2.5 继承的特点
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/继承的特点.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/继承的特点.png)
 
 
 
@@ -109,7 +109,7 @@
 ***
 <a id="3"> </a>
 ## 三、访问修饰符
-![访问修饰符](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/访问修饰符.png)
+![访问修饰符](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/访问修饰符.png)
 ***
 <a id="4"> </a>
 ## 四、方法重写
@@ -144,19 +144,19 @@
 &nbsp;
 
  - 在子类中，可直接访问从父类继承到的属性和方法，但如果父子类的属性或方法存在重名（属性遮蔽、方法覆盖）时，需要加以区分，才可专项访问
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super关键字.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super关键字.png)
 
 
 
 #### 4.3.1 super的访问方法
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super的访问方法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super的访问方法.png)
 
 
 
 #### 4.3.2 super的访问属性
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super的访问属性.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super的访问属性.png)
 
 
 
@@ -164,31 +164,31 @@
 
  - 在具有继承关系的对象创建中，构建子类对象会先构建父类对象
  - 由父类的共性内容，叠加子类的独有内容，组合成完整的子类对象
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/继承中的对象创建.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/继承中的对象创建.png)
 
 
 
 #### 4.4.1 继承后的对象创建过程
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/继承后的对象创建过程.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/继承后的对象创建过程.png)
 
 
 
 ### 4.5 super调用父类无参构造
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super调用父类无参构造.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super调用父类无参构造.png)
 
 
 
 ### 4.6 super调用父类的有参构造
 
-![super调用父类的有参构造](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super调用父类的有参构造.png)
+![super调用父类的有参构造](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/super调用父类的有参构造.png)
 
 
 
 ### 4.7 this与super
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/this与super.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/this与super.png)
 ***
 <a id="5"> </a>
 ## 五、多态
@@ -198,7 +198,7 @@
  - **概念：** 父类引用指向子类对象，从而产生多种形态
  - 二者具有直接或间接的继承关系时，父类引用可指向子类对象，即形成多态
  - 父类引用仅可调用父类所声明的属性和方法，不可调用子类独有的属性和方法
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/什么是多态.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/什么是多态.png)
 
 
 
@@ -224,24 +224,24 @@
  - 使用父类作为方法返回值实现多态，使方法可以返回子类对象
  - 调用方法后，可得到的结果类型包括：本类型对象+其所有的子类对象
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/多态的应用.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象三大特性/多态的应用.png)
 ***
 <a id="6"> </a>
 ## 六、拆箱装箱
 ### 6.1 向上转型（装箱）
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7/%E5%90%91%E4%B8%8A%E8%BD%AC%E5%9E%8B%EF%BC%88%E8%A3%85%E7%AE%B1%EF%BC%89.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7/%E5%90%91%E4%B8%8A%E8%BD%AC%E5%9E%8B%EF%BC%88%E8%A3%85%E7%AE%B1%EF%BC%89.png)
 
 
 
 ### 6.2 向下转型（拆箱）
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7/%E5%90%91%E4%B8%8B%E8%BD%AC%E5%9E%8B%EF%BC%88%E6%8B%86%E7%AE%B1%EF%BC%89.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7/%E5%90%91%E4%B8%8B%E8%BD%AC%E5%9E%8B%EF%BC%88%E6%8B%86%E7%AE%B1%EF%BC%89.png)
 
 
 
 ### 6.3 类型转换异常
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%BC%82%E5%B8%B8.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%BC%82%E5%B8%B8.png)
 
 
 
@@ -249,12 +249,12 @@
 
  - 向下转型前，应判断引用中的对象真实类型，保证类型转换的正确性
  - **语法：** 引用instanceof类型	//返回boolean类型结果
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7/instanceof%E5%85%B3%E9%94%AE%E5%AD%97.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%89%E5%A4%A7%E7%89%B9%E6%80%A7/instanceof%E5%85%B3%E9%94%AE%E5%AD%97.png)
 
 ***
 
 
 
-> 上一章[【Java面向对象】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象.md)
+> 上一章[【Java面向对象】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象.md)
 
-> 下一章[【Java三个修饰符】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java三个修饰符.md)
+> 下一章[【Java三个修饰符】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java三个修饰符.md)
