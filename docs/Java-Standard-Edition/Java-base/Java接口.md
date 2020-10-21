@@ -24,7 +24,7 @@
 ### 1.1 接口的语法
 
 接口相当于特殊的抽象类，定义方式、组成部分与抽象类相似
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java接口/接口的语法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java接口/接口的语法.png)
 
 
 
@@ -72,13 +72,13 @@
 ## 四、接口的应用
 ### 4.1 接口的多态
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java接口/接口的多态.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java接口/接口的多态.png)
 
 
 
 ### 4.2 接口引用和对象的关系
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java接口/接口引用和对象的关系.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java接口/接口引用和对象的关系.png)
 
 ### 4.3 常见关系
 
@@ -104,7 +104,7 @@
  - **图像意为：**
  - **先有接口的使用者，后有接口的实现者**
  - **宏观概念：接口是一种标准**
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java接口/接口回调.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java接口/接口回调.png)
 
 **接口回调案例：探究Comparable接口中CompareTo的方法，模拟利用其中的Arrays.sort进行排序** 
 
@@ -263,7 +263,7 @@ public class Tools {
 }
 ```
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java接口/20200227132252676.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java接口/20200227132252676.png)
 
 **TestStudentSort**
 
@@ -334,6 +334,6 @@ class Student implements Comparable<Student> {
 
 
 
-> 上一章[【Java三个修饰符】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java三个修饰符.md)
+> 上一章[【Java三个修饰符】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java三个修饰符.md)
 
-> 下一章[【Java内部类与常用类】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java内部类与常用类.md)
+> 下一章[【Java内部类与常用类】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java内部类与常用类.md)
