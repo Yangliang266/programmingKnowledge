@@ -30,7 +30,7 @@
 ***
 <a id="2"> </a>
 ## 二、Collection体系集合
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java集合/Collection体系集合.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java集合/Collection体系集合.png)
 
 **Collection父接口**
 
@@ -74,7 +74,7 @@
 
 ### 3.3 不同实现方法
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java集合/List接口实现类的不同实现方法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java集合/List接口实现类的不同实现方法.png)
 ***
 <a id="4"> </a>
 ## 四、Set接口与实现类
@@ -115,7 +115,7 @@
 ## 五、Map接口与实现类
 ### 5.1 Map结构
 
-### ![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java集合/Map结构.png)
+### ![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java集合/Map结构.png)
 
 
 
@@ -214,6 +214,6 @@ for(数据类型 变量名 : 容器名称){ //可遍历集合或数组（常用�
 
 
 
-> 上一章[【Java内部类与常用类】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java内部类与常用类.md)
+> 上一章[【Java内部类与常用类】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java内部类与常用类.md)
 
-> 下一章[【Java异常】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java异常.md)
+> 下一章[【Java异常】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java异常.md)
