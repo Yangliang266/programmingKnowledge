@@ -49,7 +49,7 @@
 	* 内部类可直接访问外部类的私有成员，而不破坏封装
 	* 可为外部类提供必要的内部功能组件
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java内部类/内部类字节码文件.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java内部类/内部类字节码文件.png)
 
 
 
@@ -563,7 +563,7 @@ class Student {
 
 ### 6.1 BigDecimal
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java内部类/BigDecemal类.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java内部类/BigDecemal类.png)
 
  - **位置：** java.math包中
  - **作用：** 精确计算浮点数
@@ -578,7 +578,7 @@ class Student {
 
 ### 6.2 利用BigDecimal可以进行数值计算
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java内部类/利用BigDecimal可以进行数值计算.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java内部类/利用BigDecimal可以进行数值计算.png)
 
  - **除法：** BigDecimal(BigDecimal bd, int scal, RoundingMode mode)
  - **参数scal：** 指定精确到小数点后几位
@@ -589,7 +589,7 @@ class Student {
 
 
 
-> 上一章[【Java接口】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java接口.md)
+> 上一章[【Java接口】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java接口.md)
 
-> 下一章[【Java集合】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java集合.md)
+> 下一章[【Java集合】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java集合.md)
 
