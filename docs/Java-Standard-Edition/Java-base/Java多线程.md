@@ -46,7 +46,7 @@
 
 ## 一、什么是线程
 ### 1.1 什么是进程
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/什么是进程.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/什么是进程.png)
 
 
 
@@ -74,13 +74,13 @@
 
 ### 2.2 创建线程的第一种方式（入门）
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/创建线程的第一种方式.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/创建线程的第一种方式.png)
 
 
 
 ### 2.3 创建线程的第二种方式（入门）
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/创建线程的第二种方式.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/创建线程的第二种方式.png)
 ***
 <a id="3"> </a>
 ## 三、线程的状态
@@ -204,12 +204,12 @@ class Task implements Runnable {//线程实现类——Thread-0
 
 ### 3.3 线程的状态（等待）
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%8A%B6%E6%80%81%EF%BC%88%E7%AD%89%E5%BE%85%EF%BC%89.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%8A%B6%E6%80%81%EF%BC%88%E7%AD%89%E5%BE%85%EF%BC%89.png)
 ***
 <a id="4"> </a>
 ## 四、线程安全
 ### 4.1 线程安全问题
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/java多线程/线程安全问题.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/java多线程/线程安全问题.png)
 
 
 
@@ -230,7 +230,7 @@ class Task implements Runnable {//线程实现类——Thread-0
 
 #### 4.2.2 线程的状态（阻塞）
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%8A%B6%E6%80%81%EF%BC%88%E9%98%BB%E5%A1%9E%EF%BC%89.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%8A%B6%E6%80%81%EF%BC%88%E9%98%BB%E5%A1%9E%EF%BC%89.png)
 
 #### 4.2.3 同步方式（2）：同步代码块
 
@@ -598,7 +598,7 @@ class MyThread2 extends Thread {
 
 ### 7.2 线程池原理
 将任务提交给线程池，由线程池分配线程、运行任务，并在当前任务结束后复用线程
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/线程池原理.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/线程池原理.png)
 
 
 
@@ -666,7 +666,7 @@ class MyTask implements Callable<Integer> {
  - **同步：**
 	* 形容一次方法调用，同步一旦开始，调用者必须等待该方法返回，才能继续
  - <font color="red">**注意：**</font>单条执行路径
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/线程的同步.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/线程的同步.png)
 
 
 
@@ -675,7 +675,7 @@ class MyTask implements Callable<Integer> {
  - **异步：**
 	* 形容一次方法调用，异步一旦开始，像是一次消息传递，调用者告知之后立即返回。二者竞争时间片，并发执行
  - <font color="red">**注意：**</font>多条执行路径
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/线程的异步.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/线程的异步.png)
 
 <font color="purple">**Future接口的使用**
 
@@ -832,7 +832,7 @@ class MyTask2 implements Runnable {
 ### 7.7 重入锁
 
  - **ReenTrantLock：** Lock接口的实现类，与synchronized一样具有互斥锁功能
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/重入锁.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/重入锁.png)
 
 
 
@@ -845,7 +845,7 @@ class MyTask2 implements Runnable {
 	* **读-写：** 互斥，读阻塞写、写阻塞读
 	* **读-读：** 不互斥、不阻塞
  - 在读操作远远高于写操作的环境中，可在保障线程安全的情况下，提高运行效率
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/读写锁.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/读写锁.png)
 
 **读写锁案例** 
 
@@ -961,7 +961,7 @@ class ReadTask implements Callable {
 ### 8.1 Collection体系集合
 
  - Collection体系集合下，除Vector以外的线程安全集合
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/Collection体系集合.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/Collection体系集合.png)
 
 
 
@@ -1196,6 +1196,6 @@ public class TestQueue {
 
 
 
-> 上一章[【Java异常】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java异常.md)
+> 上一章[【Java异常】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java异常.md)
 
-> 下一章[【JavaIO流】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/JavaIO流.md)
+> 下一章[【JavaIO流】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/JavaIO流.md)
