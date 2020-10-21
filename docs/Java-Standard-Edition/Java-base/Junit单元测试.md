@@ -349,6 +349,6 @@ public class MyTestDemo {
 
 
 
-> 上一章[【Java网络编程】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java网络编程.md)
+> 上一章[【Java网络编程】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java网络编程.md)
 
-> 下一章[【Java反射】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java反射机制.md)
+> 下一章[【Java反射】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java反射机制.md)
