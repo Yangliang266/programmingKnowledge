@@ -316,6 +316,6 @@ javadoc -d ./doc -encoding utf-8 -charset utf-8 -sourcepath d:\Code\javase\first
 
 
 
-> 上一章[【Java反射】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java反射机制.md)
+> 上一章[【Java反射】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java反射机制.md)
 
-> 下一章[【Java注解】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java注解.md)
+> 下一章[【Java注解】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java注解.md)
