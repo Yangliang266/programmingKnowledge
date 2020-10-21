@@ -147,7 +147,7 @@ public class CallFunction {
 <a id="6"> </a>
 
 ## 六、递归
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java函数/递归.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java函数/递归.png)
 如何正确的使用递归呢？就要设置有效的递归出口，避免无穷递归！
 所谓无穷递归就是无穷无尽的调用递归方法计算！
 **当无穷递归计算之后会出现内存溢出的异常！
@@ -159,6 +159,6 @@ Exception in thread "main" java.lang.StackOverflowError（内存溢出）**
 
 
 
-> 上一章[【Java循环结构】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java循环结构.md)
+> 上一章[【Java循环结构】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java循环结构.md)
 
-> 下一章[【Java数组】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java数组.md)
+> 下一章[【Java数组】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java数组.md)
