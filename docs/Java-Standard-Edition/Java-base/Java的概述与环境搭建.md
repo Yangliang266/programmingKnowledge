@@ -37,7 +37,7 @@
 ## 二、Java之父（被我们著称的“高司令”）
 作为了解就好，别学半天Java不知道Java之父是谁，所以我在这里添加到这知识点章节的内容里！
 
-![高司令](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/高司令.png)
+![高司令](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/高司令.png)
 
 詹姆斯·高斯林 （James Gosling）是一名软件专家，1955年5月19日出生于加拿大，Java编程语言的共同创始人之一，一般公认他为“Java之父”。
 
@@ -62,7 +62,7 @@
  - 先编译、再解释：
 	* 将源文件编译成字节码文件（平台中立文件.class），再将字节码文件进行解释执行
 	* Java的设计理念：Write Once Run Anywhere
-![java的执行机制](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/java的执行机制.png)
+![java的执行机制](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/java的执行机制.png)
 ***
 
 ## 五、Java的环境搭建
@@ -78,18 +78,18 @@
 ### 5.2 配置环境变量
 
 右击我的电脑--属性--高级系统设置--环境变量--并操作以下内容步骤
-![配置环境变量](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/配置环境变量.png)
+![配置环境变量](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/配置环境变量.png)
 
 ### 5.3 测试JDK是否安装成功
 
 打开cmd窗口--输入命令java -version--出现版本则安装成功
-![jdk是否成功](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/jdk是否成功.png)
+![jdk是否成功](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/jdk是否成功.png)
 
 ### 5.4 常用DOS命令操作
 
  - Windows键 + R——快捷键呼出运行窗口
  - 再输入cmd并回车打开DOS命令窗口
-![](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/DOS命令窗口.png)
+![](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/DOS命令窗口.png)
  - 常见命令
 	* 更换盘符：d:
 	* 查看当前目录下的文件及文件夹：dir
@@ -108,7 +108,7 @@
 <font color="red">**注意：**</font>Java语言严格区分大小写，写错一点，就有可能会造成程序的报错！
 
 创建以.java结尾的源文件： 
-![Java源文件示例](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/Java源文件示例.png)
+![Java源文件示例](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/Java源文件示例.png)
 第一个程序代码的解释：
 
  > Class：类（代码的容器）
@@ -128,10 +128,10 @@ class First {
 
  - 编译：
 	* javac 源文件名称 .java
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/20200504095336.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/20200504095336.png)
  - 运行：
 	* java 类名
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/20200504095401.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java的概述与环境搭建/20200504095401.png)
 
 #### 6.2.1 类的介绍
 
@@ -219,4 +219,4 @@ public class HelloWorld {
 
 
 
-> 下一章[【Java语言基础】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java语言基础.md)
+> 下一章[【Java语言基础】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java语言基础.md)
