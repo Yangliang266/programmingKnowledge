@@ -1130,6 +1130,6 @@ end//
 call sp_create_table02('RESEARCH');
 ```
 
-> 上一章[【MySQL数据库基础】](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/MySQL数据库.md)
+> 上一章[【MySQL数据库基础】](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/MySQL数据库.md)
 
-> 下一章[【MySQL触发器】](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/mysql-professional/MySQL触发器.md)
+> 下一章[【MySQL触发器】](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/mysql-professional/MySQL触发器.md)
