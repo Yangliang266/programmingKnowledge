@@ -37,7 +37,7 @@
 
  - **互联网：** （Internet）点与点相连
 
-![计算机网络](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java网络编程/计算机网络.png)
+![计算机网络](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java网络编程/计算机网络.png)
 
  - **万维网：** （WWW - World Wide Web）端与端相连
  - **物联网：** （Iot - Internet of things）物与物相连
@@ -49,14 +49,14 @@
 ### 3.1 OSI模型
 
  - OSI（Oper System Interconnection）开放式系统互联
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java网络编程/OSI模型.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java网络编程/OSI模型.png)
 
 
 
 ### 3.2 TCP/IP模型
 
  - 一组用于实现网络互联的通信协议，将协议分为四个层次
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java网络编程/TCP与IP模型.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java网络编程/TCP与IP模型.png)
 ***
 <a id="4"> </a>
 ## 四、通信协议
@@ -273,6 +273,6 @@ public class Server {
 
 
 
-> 上一章[【JavaIO流】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/JavaIO流.md)
+> 上一章[【JavaIO流】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/JavaIO流.md)
 
-> 下一章[【Junit单元测试】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Junit单元测试.md)
+> 下一章[【Junit单元测试】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Junit单元测试.md)
