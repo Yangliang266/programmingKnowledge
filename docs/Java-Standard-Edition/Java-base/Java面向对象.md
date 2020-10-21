@@ -43,19 +43,19 @@
  - **特征：** 称为属性，一般为名词，代表对象有什么
  - **行为：** 称为方法，一般为动词，代表对象能做什么
  - 现实中的对象多数来自于“模板”，而程序中的对象也不例外也具有相应的“模板”
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/面向对象思想.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/面向对象思想.png)
 
 
 
 ### 1.3 对象的创建
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/对象的创建.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/对象的创建.png)
 
 
 
 #### 1.3.1 对象创建过程
 
-![对象创建过程](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/对象创建过程.png)
+![对象创建过程](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/对象创建过程.png)
 
 
 
@@ -67,13 +67,13 @@
 ## 二、什么是类
 ### 2.1 什么是类？
 类（Class）是面向对象程序设计实现信息封装的基础
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/什么是类.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/什么是类.png)
 
 
 
 ### 2.2 类的定义
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/类的定义.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/类的定义.png)
 ***
 <a id="3"> </a>
 ## 三、类的组成
@@ -128,7 +128,7 @@
  - **好处：** 屏蔽使用差异、灵活、方便
 
 <font color="red">**注意：**</font>只是参数不同并不能构成方法的重载
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/方法重载.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/方法重载.png)
 
 ***
 <a id="5"> </a>
@@ -148,36 +148,36 @@
 ### 5.2 构造方法的重载
 
 构造方法也可以重载，遵循重载规则
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/构造方法的重载.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/构造方法的重载.png)
 
 
 
 ### 5.3 默认构造方法
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/默认的构造方法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/默认的构造方法.png)
 ### 5.4 构造方法为属性赋值
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/构造方法为属性赋值.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/构造方法为属性赋值.png)
 ***
 <a id="6"> </a>
 ## 六、this关键字
 
 ### 6.1 了解this关键字
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/了解this关键字.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/了解this关键字.png)
 
 
 
 ### 6.2 this关键字的用法
 
  1. 调用实例属性、实例方法，如：this.name、this.sayHi();
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/this关键字的用法1.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/this关键字的用法1.png)
  2. 调用本类中其他构造方法，如：this(); this(实参);
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/this关键字的用法2.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java面向对象/this关键字的用法2.png)
 ***
 
 
 
-> 上一章[【Java数组】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java数组.md)
+> 上一章[【Java数组】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java数组.md)
 
-> 下一章[【Java面向对象三大特性】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象三大特性.md)
+> 下一章[【Java面向对象三大特性】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象三大特性.md)
 
