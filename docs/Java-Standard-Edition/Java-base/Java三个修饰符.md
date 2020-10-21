@@ -42,30 +42,30 @@
 
 >大家都知道动物，有小有大，小到小猫、小狗，大到狮子、老虎、大象。可是有没有注意过，动物虽是一个对象，但是它实际是什么呢？这么想想是不是他不应该被new出来呢？
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/不该被创建的对象.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/不该被创建的对象.png)
 ***
 <a id="2"> </a>
 ## 二、抽象类、抽象方法
 
 ### 2.1 抽象类
 **应用：** abstract修饰类，此类不能new对象
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/抽象类.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/抽象类.png)
 
 
 
 ### 2.2 抽象类的作用
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/抽象类的作用.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/抽象类的作用.png)
 
 
 
 ### 2.3 不该被实现的方法
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/不该被实现的方法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/不该被实现的方法.png)
 
 ### 2.4 抽象方法
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/抽象方法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/抽象方法.png)
 
 
 
@@ -93,12 +93,12 @@
  - 静态成员是全类所有对象共享的成员
  - 在全类中只有一份，不因创建多个对象而产生多份
  - 不必创建对象，可直接通过类名访问
-![static概念总结示例](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/static概念总结示例.png)
+![static概念总结示例](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/static概念总结示例.png)
 ***
 <a id="4"> </a>
 ## 四、静态成员、类加载
 ### 4.1 静态方法
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/静态方法.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/静态方法.png)
 
 
 
@@ -126,7 +126,7 @@
 
 ### 4.4 静态代码块
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/静态代码块.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/静态代码块.png)
 
 ### 4.5 static总结
 
@@ -160,25 +160,25 @@
 ### 6.2 final变量
 
 **final修饰变量：** 此变量值不能被改变（常量）
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/final变量.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java三个修饰符/final变量.png)
 
 
 
 ### 6.3 实例常量
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E4%B8%89%E4%B8%AA%E4%BF%AE%E9%A5%B0%E7%AC%A6/%E5%AE%9E%E4%BE%8B%E5%B8%B8%E9%87%8F.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E4%B8%89%E4%B8%AA%E4%BF%AE%E9%A5%B0%E7%AC%A6/%E5%AE%9E%E4%BE%8B%E5%B8%B8%E9%87%8F.png)
 
 
 
 ### 6.4 静态常量
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E4%B8%89%E4%B8%AA%E4%BF%AE%E9%A5%B0%E7%AC%A6/%E9%9D%99%E6%80%81%E5%B8%B8%E9%87%8F.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E4%B8%89%E4%B8%AA%E4%BF%AE%E9%A5%B0%E7%AC%A6/%E9%9D%99%E6%80%81%E5%B8%B8%E9%87%8F.png)
 
 
 
 #### 6.5 对象常量
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E4%B8%89%E4%B8%AA%E4%BF%AE%E9%A5%B0%E7%AC%A6/%E5%AF%B9%E8%B1%A1%E5%B8%B8%E9%87%8F.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E4%B8%89%E4%B8%AA%E4%BF%AE%E9%A5%B0%E7%AC%A6/%E5%AF%B9%E8%B1%A1%E5%B8%B8%E9%87%8F.png)
 
 
 
@@ -197,7 +197,7 @@
 
 
 
-> 上一章[【Java面向对象三大特性】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象三大特性.md)
+> 上一章[【Java面向对象三大特性】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java面向对象三大特性.md)
 
-> 下一章[【Java接口】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java接口.md)
+> 下一章[【Java接口】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java接口.md)
 
