@@ -17,7 +17,7 @@
 
 **概念**：通过某个条件，重复执行的一段逻辑代码
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java循环结构/Java循环结构概念图.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java循环结构/Java循环结构概念图.png)
 ****
 
 ## 二、while循环
@@ -274,6 +274,6 @@ public class TestNested{
 
 
 
-> 上一章[【Java选择结构与分支结构】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java选择结构与分支结构.md)
+> 上一章[【Java选择结构与分支结构】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java选择结构与分支结构.md)
 
-> 下一章[【Java函数】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java函数.md)	
+> 下一章[【Java函数】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java函数.md)	
