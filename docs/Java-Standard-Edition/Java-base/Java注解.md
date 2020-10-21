@@ -875,6 +875,6 @@ public class GetConnectionDemo {
 
 
 
-> 上一章[【Javadoc文档生成】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Javadoc文档生成.md)
+> 上一章[【Javadoc文档生成】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Javadoc文档生成.md)
 
-> 下一章[【Java枚举】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java枚举.md)
+> 下一章[【Java枚举】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java枚举.md)
