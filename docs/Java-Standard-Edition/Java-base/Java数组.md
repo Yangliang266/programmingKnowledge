@@ -47,7 +47,7 @@
 
 
 ### 1.2 数组的创建
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组的创建.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组的创建.png)
 ***
 <a id="2"> </a>
 ## 二、数组的声明和赋值
@@ -60,7 +60,7 @@
 ***
 <a id="3"> </a>
 ## 三、数组的下标（索引）
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组的下标.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组的下标.png)
  - 数组中的每个数据格被称为“数组元素”。
  - 对每个元素进行复制或取值的操作被称为“元素的访问”。
  - 访问元素时，需要使用“下标”（从0开始，依次+1，自动生成）。
@@ -74,7 +74,7 @@
 
 <font color="red">**注意：**</font>**如果访问无效的下标，会导致数组下标越界，终端异常会出现Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException：6（数字说明是你访问的这个下标是无效的下标）**
 
-![数组的异常错误](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组的异常错误.png)
+![数组的异常错误](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组的异常错误.png)
 
 ***
 <a id="5"> </a>
@@ -119,7 +119,7 @@ public class Test {
  - 扩容的思路：
 	* 1、创建大于原数组长度的新数组 
 	* 2、将原数组中的元素依次赋值到新数组中
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组的扩容.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组的扩容.png)
 
 
 
@@ -135,20 +135,20 @@ public class Test {
 
  - 数组作为引用类型之一，其变量中存储的是数组的地址
  - 完成元素赋值后，需将新数组地址，赋值给原变量进行替换
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组中地址的替换.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组中地址的替换.png)
 
 
 
 #### 6.2.2 组成类型的参数
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组中组成类型的参数.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组中组成类型的参数.png)
 <font color="red">**注意：**</font>方法调用时，将nums中的地址赋值给oneArray，此时二者只想同一个数组
 
 
 
 #### 6.2.3 数组类型的返回值
 创建新数组，长度为原数组的2倍，新数组中保持原有数据，返回新数组
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组类型的返回值.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组类型的返回值.png)
 <font color="red">**注意：**</font>创建新数组，长度为原数组的2倍，新数组中保留原有数据，返回新数组
 
 
@@ -157,7 +157,7 @@ public class Test {
 
  - **概念：** 可接收多个同类型实参，个数不限，使用方式与数组相同
  - **语法：** 数组类型...形参名 //必须定义在形参列表的最后，且只能有一个
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组中可变长参数.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/数组中可变长参数.png)
 ***
 <a id="7"> </a>
 ## 七、数组的排序
@@ -264,25 +264,25 @@ public class ArrayJDKSort {
 ### 8.1 二维数组的概念
 
 **概念：** 一维数组中的一维数组；数组总的元素还是数组
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/二维数组的概念.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/二维数组的概念.png)
 
 
 
 ### 8.2 二维数组的赋值
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/二维数组的赋值.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/二维数组的赋值.png)
 
 
 
 ### 8.3 二维数组的内存分配
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/二维数组的内存分配.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/二维数组的内存分配.png)
 
 
 
 ### 8.4 二维数组的访问
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/二维数组的访问.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/二维数组的访问.png)
 
 
 
@@ -304,7 +304,7 @@ public class ArrayJDKSort {
 >
 > 简单来说，每个数等于它上方两数之和，并且每行数字左右对称，由1开始逐渐变大。
 
-![杨辉三角](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java数组/杨辉三角.png)
+![杨辉三角](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java数组/杨辉三角.png)
 
 #### 8.6.2 基础数组版实现“杨辉三角”
 
@@ -416,6 +416,6 @@ public class TestYangHui {
 
 
 
-> 上一章[【Java函数】](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Standard-Edition/Java-base/Java函数.md)
+> 上一章[【Java函数】](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Standard-Edition/Java-base/Java函数.md)
 
-> 下一章[【Java面向对象】](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Java-Standard-Edition/Java-base/Java面向对象.md)
+> 下一章[【Java面向对象】](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Java-Standard-Edition/Java-base/Java面向对象.md)
