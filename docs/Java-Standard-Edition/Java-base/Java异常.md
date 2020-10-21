@@ -245,6 +245,6 @@ class Student{
 
 
 
-> 上一章[【Java集合】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java集合.md)
+> 上一章[【Java集合】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java集合.md)
 
-> 下一章[【Java多线程】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java多线程.md)
+> 下一章[【Java多线程】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java多线程.md)
