@@ -103,5 +103,5 @@ default-storage-engine=INNODB
 
 
 
-> 下一章[【MySQL数据库基础】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Database/MySQL数据库.md)
+> 下一章[【MySQL数据库基础】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Database/MySQL数据库.md)
 
