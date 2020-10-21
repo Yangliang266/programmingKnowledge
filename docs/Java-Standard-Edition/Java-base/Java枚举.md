@@ -849,6 +849,6 @@ System.out.println(map);			//{MONDAY=1, THURSDAY=4}
 
 
 
-> 上一章[【Java注解】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java注解.md)
+> 上一章[【Java注解】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java注解.md)
 
 > JavaSE基础内容就此完结！感谢大家阅读！
