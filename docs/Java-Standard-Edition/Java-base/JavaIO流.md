@@ -29,7 +29,7 @@
 
  - **概念：** 内存与存储设备之间传输数据的通道
  - **比如：** 水借助管道传输；数据借助流传输
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/什么是流.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/什么是流.png)
 ***
 <a id="2"> </a>
 ## 二、流的分类
@@ -133,7 +133,7 @@ public class TestOutputStream {
 
 
 
-![在这里插入图片描述](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java多线程/字节过滤流执行结果图.png)
+![在这里插入图片描述](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java多线程/字节过滤流执行结果图.png)
 
  - **FileInputStream：**
 	* public int read(byte[] b) //从流中读取多个字节，将读到的内容存入b数组，返回实际读到的字节数；如果达到文件的尾部，则返回-1
@@ -703,6 +703,6 @@ class MyFilter implements FileFilter {
 
 
 
-> 上一章[【Java多线程】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java多线程.md)
+> 上一章[【Java多线程】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java多线程.md)
 
-> 下一章[【Java网络编程】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java网络编程.md)
+> 下一章[【Java网络编程】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java网络编程.md)
