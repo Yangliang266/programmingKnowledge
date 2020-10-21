@@ -92,7 +92,7 @@ public class TestDefinition{
 
 
 
-![数据类型](https://github.com/Yangliang266/Java-knowledge-system/blob/master/media/pictures/Java-Standard-Edition/Java%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
+![数据类型](https://github.com/Yangliang266/programmingKnowledge/blob/master/media/pictures/Java-Standard-Edition/Java%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
 
 
 
@@ -739,7 +739,7 @@ public class TestScanner2{
 
 
 
-> 上一章[【Java的概述与环境搭建】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java的概述与环境搭建.md)
+> 上一章[【Java的概述与环境搭建】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java的概述与环境搭建.md)
 
-> 下一章[【Java选择结构与分支结构】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Java-Standard-Edition/Java-base/Java选择结构与分支结构.md)
+> 下一章[【Java选择结构与分支结构】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Java-Standard-Edition/Java-base/Java选择结构与分支结构.md)
 
