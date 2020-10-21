@@ -2080,6 +2080,6 @@ DROP VIEW t_empinfo;
 > 5. 数据控制语言DCL (Data Control Language)：GRANT、REVOKE
 
 
-> 上一章[【MySQL5.7解压版安装教程】](https://github.com/Yangliang266/Java-knowledge-system/blob/master/docs/Database/mysql-professional/MySQL5.7解压版安装教程.md)
+> 上一章[【MySQL5.7解压版安装教程】](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Database/mysql-professional/MySQL5.7解压版安装教程.md)
 
-> 下一章[【MySQL存储过程编程】](https://github.com/Yangliang266/Java-knowledge-system/tree/master/docs/Database/mysql-professional/MySQL存储过程.md)
+> 下一章[【MySQL存储过程编程】](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Database/mysql-professional/MySQL存储过程.md)
