@@ -46,7 +46,7 @@
 
 5. 图解（aqs）
 
-    ![AQS (3)](https://raw.githubusercontent.com/Yangliang266/images/master/img/AQS (3).png)
+    ![aqs_ex](https://raw.githubusercontent.com/Yangliang266/images/master/img/aqs_ex.png)
     
     1. waitStatus概述
        Node结点是对每一个等待获取资源的线程的封装，其包含了需要同步的线程本身及其等待状态，如是否被阻塞、是否等待唤醒、是否已经被取消等。
@@ -72,7 +72,7 @@
 
 ## Condition(条件控制)和阻塞队列
 
-![condition阻塞 (1)](https://raw.githubusercontent.com/Yangliang266/images/master/img/condition阻塞 (1).png)
+![condition](https://raw.githubusercontent.com/Yangliang266/images/master/img/condition.png)
 
 
 ##  CountDownlatch
