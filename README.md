@@ -1,15 +1,12 @@
-<a href="https://github.com/Ziphtracks/JavaLearningmanual">
+<a href="https://github.com/Yangliang266/programmingKnowledge">
 		<img src="https://gitee.com/Ziphtracks/Figurebed/raw/master/img/2/20200818111643.gif" alt="Java Learning manual">
 	</a>
 
 
 ------
 
-**邮箱：** yangl546493589@163.com
 
-**个人声明：** 本仓库记录所学Java不归路中的`知识体系`、`知识扩展进阶`、`数据结构与算法`、`面试经验`、`技术分享`、`第三方优质学习资源`、`互联网行业技术交流`、`互联网大厂技术动态`以及`我的生活`。大家有问题，欢迎与我交流、分享，我期待你的来电！
-
-***注意：*** *没有超链接的文章标题即是没有发布的技术文章，因为时间有限嘛，干这一行你懂得，所以我会尽可能的抽出时间来完善此仓库的技术文，理解万岁！！！* 
+***注意：*** *没有超链接的文章标题即是没有发布的技术文章，会尽可能的抽出时间来完善此仓库的技术文！！！* 
 
 ------
 
