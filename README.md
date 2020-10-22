@@ -312,9 +312,9 @@
 
 ### 📐设计模式
 
-- [00-设计模式基础](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/design-mode/00.设计模式基础.md)
-- [02-七大软件设计原则](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/design-mode/七大软件设计原则.md)
-- [03-单例设计模式](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/design-mode/sub-mode_model/01.单例设计模式.md)
+- [00-设计模式基础](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Design-mode/00.设计模式基础.md)
+- [02-七大软件设计原则](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Design-mode/七大软件设计原则.md)
+- [03-单例设计模式](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Design-mode/sub-mode_model/01.单例设计模式.md)
 - 其他
 
 ### 📋项目开发
