@@ -259,9 +259,9 @@
   - [多线程使用的挑战synchronize.md](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Distributed-architecture/concurrent-programming/concuurent-base-theory/多线程使用的挑战synchronize.md)
   - [死锁的产生与解决](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Distributed-architecture/concurrent-programming/concuurent-base-theory/线程扩展.md) 
 - **JUC** 
-  - [JUC并发工具的原理及使用](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Distributed-architecture/concurrent-programming/concuurent-base-theory/JUC并发工具的原理及使用.md)
-  - [ConcurrentHashMap的原理](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Distributed-architecture/concurrent-programming/concuurent-base-theory/ConcurrentHashMap的原理.md)
-  - [线程池的设计与原理](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Distributed-architecture/concurrent-programming/concuurent-base-theory/线程池的设计与原理.md)
+  - [JUC并发工具的原理及使用](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Distributed-architecture/concurrent-programming/concurrent-JUC/JUC并发工具的原理及使用.md)
+  - [ConcurrentHashMap的原理](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Distributed-architecture/concurrent-programming/concurrent-JUC/ConcurrentHashMap的原理.md)
+  - [线程池的设计与原理](https://github.com/Yangliang266/programmingKnowledge/blob/master/docs/Distributed-architecture/concurrent-programming/concurrent-JUC/线程池的设计与原理.md)
 
 - 其他
 
