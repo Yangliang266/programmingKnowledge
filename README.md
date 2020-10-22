@@ -8,6 +8,8 @@
 
 ***注意：*** *没有超链接的文章标题即是没有发布的技术文章，会尽可能的抽出时间来完善此仓库的技术文！！！* 
 
+***说明：*** *此手册通过网上资料与自己感悟对比而成，本意希望以最简洁的语言来描述知识点，若有歧义或者侵权，email至yangl546493589@163.com或者在[Issues栏提出](https://github.com/Yangliang266/programmingKnowledge/issues)* 
+
 ------
 
 # 👇Java Learning manual doc
