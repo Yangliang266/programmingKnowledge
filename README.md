@@ -346,6 +346,7 @@
 - **SSM** 
   - 其他
 - **Springboot（分布式）** 
+  - [Alanmall](https://github.com/Yangliang266/Alanmall)
   - 其他
 
 ### 👨‍🎓mylife
