@@ -162,7 +162,7 @@
 
 - **Linux** 
   - 虚拟机与Linux安装教程
-  - [Linux常用命令](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/operating-system/Linux命令大全.md)
+  - [Linux常用命令](https://github.com/Yangliang266/programmingKnowledge/tree/master/docs/Operating-system/Linux命令大全.md)
   - Linux项目部署流程
   - 其他
 
