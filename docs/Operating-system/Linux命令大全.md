@@ -1,5 +1,22 @@
 **链接：** https://www.processon.com/view/5f255568637689168e4356a8#map
 
+#### 解压
+
+*xz文件*
+
+```
+xz -d  mysql-8.0.22-linux-glibc2.12-x86_64.tar.xz 解压成tar文件
+tar xvf mysql-8.0.22-linux-glibc2.12-x86_64.tar 解压
+```
+
+
+
+*gz文件*
+
+```
+tar -zxvf mysql-8.0.22-linux-glibc2.12-x86_64.tar.gz
+```
+
 
 
 #### Linux 命令操作
