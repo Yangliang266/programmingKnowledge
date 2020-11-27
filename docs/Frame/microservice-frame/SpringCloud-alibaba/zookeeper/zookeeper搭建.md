@@ -1,4 +1,4 @@
-**一 下载 linux**
+**一 下载 
 
 ![zookeeper-3.4.14.tar.gz](https://raw.githubusercontent.com/YangLiang266/images/master/img/attachment.png)
 
