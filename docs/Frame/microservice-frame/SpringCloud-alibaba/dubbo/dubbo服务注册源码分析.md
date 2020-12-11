@@ -472,3 +472,11 @@ private void doExportUrlsFor1Protocol(ProtocolConfig protocolConfig, List<URL> r
     }
 ```
 
+
+
+远程发布和本地发布
+
+`injvm`的调用
+
+- 判断是否需要发布到远程服务
+

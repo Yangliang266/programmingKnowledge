@@ -2,6 +2,8 @@
 
 ### 网络模型
 
+![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/96995416fa64671e9329770d0ec6817d.png)
+
 #### 1 osi七层网络模型
 
 > 应用层，表示层，会话层，传输层，网络层，数据链路层，物理层
@@ -10,7 +12,7 @@
 
 > 应用层，传输层，网络层，网络接口层
 
-![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/%E7%BD%91%E7%BB%9C%E5%B1%82.png)
+![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/%E7%BD%91%E7%BB%9C%E5%B1%82.png)
 
 
 
@@ -106,7 +108,7 @@
 
 > 当应用程序用tcp协议传输时，会把数据存放到协议栈中，最终通过比特数据流传入到网络中，每一层收到的数据都会在首部添加重要的信息。
 
-<img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%AF%B7%E6%B1%82%E6%B5%81%E7%A8%8B.png" alt="img" style="zoom: 80%;" />
+<img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%AF%B7%E6%B1%82%E6%B5%81%E7%A8%8B.png" alt="img" style="zoom: 80%;" />
 
 > 客户端如何找到目标服务:ARP协议，即如何找到mac地址
 
@@ -116,7 +118,7 @@
 
 #### 4 接收端收到数据包以后的处理过程
 
-<img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8E%A5%E5%8F%97%E8%AF%B7%E6%B1%82.png" alt="img" style="zoom:80%;" />
+<img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8E%A5%E5%8F%97%E8%AF%B7%E6%B1%82.png" alt="img" style="zoom:80%;" />
 
 #### 5 TCP/IP 的分层管理
 
@@ -152,7 +154,7 @@
 
   
 
-<img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B.png" alt="img" style="zoom:80%;" />
+<img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B.png" alt="img" style="zoom:80%;" />
 
 
 
@@ -180,7 +182,7 @@
 >
 > 服务端关闭连接
 
-![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B.png)
+![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B.png)
 
 
 
@@ -202,11 +204,13 @@
 
 > read 所要做的工作，就是把内核接收缓冲区中的数据复制到应用层用户的 Buffer 里。 进程调用 Socket 的 send 发送数据的时候，一般情况下是将数据从应用层用户的 Buffer 里复 制到 Socket 的内核发送缓冲区，然后 send 就会在上层返回。换句话说，send 返回时，数据 不一定会被发送到对端。
 
-![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/clipboard.png)
+
 
 #### 2 滑动窗口协议
 
-> 滑动窗口（Sliding window）是一种流量控制技 术。早期的网络通信中，通信双方不会考虑网络的拥挤情况直接发送数据。由于大家不知道 网络拥塞状况，同时发送数据，导致中间节点阻塞掉包，谁也发不了数据，所以就有了滑动 窗口机制来解决此问题；发送和接受方都会维护一个数据帧的序列，这个序列被称作	窗口
+> 滑动窗口（Sliding window）是一种流量控制技 术。早期的网络通信中，通信双方不会考虑网络的拥挤情况直接发送数据。由于大家不知道 网络拥塞状况，同时发送数据，导致中间节点阻塞掉包，谁也发不了数据，所以就有了滑动 窗口机制来解决此问题；发送和接受方都会维护一个数据帧的序列，这个序列被称作窗口
+>
+> ![sockethuadong](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/sockethuadong.png)
 
 #### 3 发送窗口
 

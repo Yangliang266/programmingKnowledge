@@ -106,11 +106,11 @@
 
    1. 偏向锁
 
-      <img src="https://raw.githubusercontent.com/YangLiang-SoftWise/images/master/img/偏向锁.png" style="zoom:80%;" />
+      <img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/java/concurrent/%E5%81%8F%E5%90%91%E9%94%81.png" style="zoom:80%;" />
 
    2. 轻量级重量级
 
-      <img src="https://raw.githubusercontent.com/YangLiang-SoftWise/images/master/img/轻量级锁.png" style="zoom:80%;" />
+      <img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/java/concurrent/%E8%BD%BB%E9%87%8F%E7%BA%A7%E9%94%81.png" style="zoom:80%;" />
 
    3. 名词解释
 
@@ -132,4 +132,4 @@
 
 ## synchronized控制流程
 
-![](https://raw.githubusercontent.com/YangLiang-SoftWise/images/master/img/synchronized.jpg)
+![](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/java/concurrent/synchronized.jpg)

@@ -18,7 +18,7 @@
 
 #### 3 socket通信模型
 
-![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/socket通信模型.png)
+![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/socket%E9%80%9A%E4%BF%A1%E6%A8%A1%E5%9E%8B.png)
 
 
 
@@ -92,6 +92,26 @@
 | 最大连接数 |              1024（x86）或2048（x64）              |                      无上限                      |                            无上限                            |
 | fd拷贝     | 每次调用select，都需要把fd集合从用户态拷贝到内核态 | 每次调用poll，都需要把fd集合从用户态拷贝到内核态 |  调用epoll_ctl时拷贝进内核并保存，之后每次epoll_wait不拷贝   |
 
+- **零拷贝**
+
+  消息从发送到落地保存，broker维护的消息日志本身就是文件目录，每个文件都是二进制保存，生产者和消费者使用相同的格式来处理。在消费者获取消息时，服务器先从硬盘读取数据到内存，然后把内存中的数据原封不动的通过socket发送给消费者。虽然这个操作描述起来很简单，但实际上经历了很多步骤。
+
+  操作系统将数据从磁盘读入到内核空间的页缓存
+
+  ▪ 应用程序将数据从内核空间读入到用户空间缓存中
+
+  ▪ 应用程序将数据写回到内核空间到socket缓存中
+
+  ▪ 操作系统将数据从socket缓冲区复制到网卡缓冲区，以便将数据经网络发出
+
+  <img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/clipboard.png" alt="img" style="zoom:50%;" />
+
+  通过“零拷贝”技术，可以去掉这些没必要的数据复制操作，同时也会减少上下文切换次数。现代的unix操作系统提供一个优化的代码路径，用于将数据从页缓存传输到socket；在Linux中，是通过sendfile系统调用来完成的。Java提供了访问这个系统调用的方法：FileChannel.transferTo API使用sendfile，只需要一次拷贝就行，允许操作系统将数据直接从页缓存发送到网络上。所以在这个优化的路径中，只有最后一步将数据拷贝到网卡缓存中是需要的
+
+  <img src="https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/%E9%9B%B6%E6%8B%B7%E8%B4%9D.png" alt="零拷贝" style="zoom:50%;" />
+
+
+
 > epoll是Linux目前大规模网络并发程序开发的首选模型。在绝大多数情况下性能远超select和poll。目前流行的高性能web服务器Nginx正式依赖于epoll提供的高效网络套接字轮询服务。但是，在并发连接不高的情况下，多线程+阻塞I/O方式可能性能更好
 
 
@@ -116,7 +136,7 @@ public class NioClient {
         // （4）获取一个选择器
         Selector selector = Selector.open();
         // （5）注册客户端socket到选择器
-        SelectionKey selectionKey = socketChannel.register(selector, 0);
+        SelectionKey selectionKey = socketChannel.register(selector, OP_CONNECT);
         // （6）发起连接
         boolean isConnected = socketChannel.connect(new InetSocketAddress("127.0.0.1", 7001));
 
@@ -142,10 +162,8 @@ public class NioClient {
                 //(10.1)获取一个事件，并从集合移除
                 selectionKey = iterator.next();
                 iterator.remove();
-                //(10.2)获取事件类型
-                int readyOps = selectionKey.readyOps();
                 //(10.3)判断是否是OP_CONNECT事件
-                if ((readyOps & SelectionKey.OP_CONNECT) != 0) {
+                if (SelectionKey.isConnectable) != 0) {
                     //（10.3.1）等待客户端socket完成与服务器端的链接
                     client = (SocketChannel) selectionKey.channel();
                     if (!client.finishConnect()) {

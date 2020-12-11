@@ -147,7 +147,7 @@
 > - 但是随着服务器负载的增加，可以平滑地增加服务器的个数并建立集群服务器系统，然 后在各个服务器之间做负载均衡
 > - 以下图是BS结构的工作原理：
 
-![1586431568617](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103817.png)
+![1586431568617](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103817.png)
 
 
 
@@ -176,7 +176,7 @@
 
 > 客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。
 
-![1561893148999](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103818.png)
+![1561893148999](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103818.png)
 
 **HTTP请求报文**
 
@@ -214,7 +214,7 @@
 
 > HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。
 
-![1561893177737](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103819.png)
+![1561893177737](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103819.png)
 
 **HTTP响应报文**
 
@@ -403,13 +403,13 @@
 
 > 首先我们在idea中随便部署一个项目（里面可以只有一个index.html）
 
-![1586582139270](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103820.png)
+![1586582139270](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103820.png)
 
 > 打开抓包功能，即去浏览器中输入你部署好的项目地址（记住先不要按Enter回车键进入），然后打开F12，进入Network界面，其次在按Enter进入你部署好的网页
 
-![1586582489310](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103821.png)
+![1586582489310](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103821.png)
 
-![1586582520646](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103822.png)
+![1586582520646](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103822.png)
 
 > 抓包后显示如下内容
 >
@@ -417,7 +417,7 @@
 > - Network里多出了一个firstweb/，这说明浏览器向服务器请求了一个地址index.html
 > - 注意：这里显示的项目名访问firstweb/，因为index.html默认项目名称访问，所以这里访问的是index.html文件
 
-![1586582690579](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103823.png)
+![1586582690579](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103823.png)
 
 #### <span id="head28">7.2 抓包后Network中的信息及名词解释</span>
 
@@ -432,7 +432,7 @@
 >   * 请求包括：请求行、请求头、请求正文
 >   * 响应包括：相应行、响应头、响应正文
 
-![1586584927952](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103824.png)
+![1586584927952](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103824.png)
 
 
 
@@ -445,7 +445,7 @@
 > - 浏览器解析响应正文并展示 
 >
 
-![1586588103816](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/20200530103825.png)
+![1586588103816](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/network/20200530103825.png)
 
 
 

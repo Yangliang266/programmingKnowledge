@@ -20,7 +20,7 @@
 
    > 这里借用 O'Reilly 大神关于事件驱动模型解释图：
 
-![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/768cee_720w.jpeg)
+![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/java/concurrent/768cee_720w.jpeg)
 
 #### 主要包括 4 个基本组件：
 
@@ -54,7 +54,7 @@
 
 > 2.Handlers：处理程序执行 I/O 事件要完成的实际事件，类似于客户想要与之交谈的公司中的实际官员。Reactor 通过调度适当的处理程序来响应 I/O 事件，处理程序执行非阻塞操作。
 
-![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/7235e1_720w.jpeg)
+![img](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/java/concurrent/7235e1_720w.jpeg)
 
 **取决于 Reactor 的数量和 Hanndler 线程数量的不同，Reactor 模型有 3 个变种：**
 
