@@ -133,7 +133,7 @@
 
 > **工作流程：** 比较熟悉的SVN是集中式的版本控制系统，每次在进行版本控制之前，需要先从中央服务器（服务端）取出最新的版本，然后开始工作，工作完后推送给中央服务器。此时的中央服务器就好比是一个图书馆，如果你要修改一本书，需要先从图书馆借出来，然后回到自己家修改，改完之后，需要在送回到图书馆。
 
-![image-20200623145014939](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705123305.png)
+![image-20200623145014939](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705123305.png)
 
 
 
@@ -149,7 +149,7 @@
 
 > **工作流程：** 分布式版本控制系统是没有“中央服务器”，每个人的电脑上都是一个完整的版本库，工作的时候，不再需要联网。开始工作前，在客户端克隆出完整的代码仓库，然后就可以在家、在公交车等等随心所欲地修改代码并提交了，提交到本地电脑，等到有网的时候就可以一次性地将本地仓库推送到远端仓库（临时中心服务器）中，这样一来，每个人都可以独立进行改动资料，并且所有的改动都是在完整资料信息的环境下进行的。
 
-![image-20200623145500696](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705123309.png)
+![image-20200623145500696](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705123309.png)
 
 
 
@@ -188,7 +188,7 @@
 
 |                        Git客户端下载                         |                      Git可视化工具下载                       |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![image-20200705155736341](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705155738.png) | ![image-20200705160142347](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705160144.png) |
+| ![image-20200705155736341](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705155738.png) | ![image-20200705160142347](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705160144.png) |
 
 
 
@@ -205,7 +205,7 @@
 
 > **@查看Git版本号：** `git version`
 
-![1588391682513](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705123318.png)
+![1588391682513](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705123318.png)
 
 
 
@@ -223,7 +223,7 @@
 >
 > `git config -l`
 
-![1588392070384](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705123326.png)
+![1588392070384](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705123326.png)
 
 
 
@@ -247,9 +247,9 @@
 
 |                           基本结构                           |
 | :----------------------------------------------------------: |
-| ![image-20200705123251618](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705123329.png) |
+| ![image-20200705123251618](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705123329.png) |
 |                **工作区-版本库-暂存区-分支**                 |
-| ![image-20200705143640909](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705143643.png) |
+| ![image-20200705143640909](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705143643.png) |
 
 
 
@@ -325,7 +325,7 @@
 
 |                           查看日志                           |
 | :----------------------------------------------------------: |
-| ![](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200707082022.png) |
+| ![](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200707082022.png) |
 
 
 
@@ -380,15 +380,15 @@
 
 |    无文件放入工作区、无add、无commit（没有任何文件状态）     |
 | :----------------------------------------------------------: |
-| ![image-20200705150714146](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705150716.png) |
+| ![image-20200705150714146](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705150716.png) |
 | **将一个名为test.txt文件放入工作区、无add、无commit（未跟踪状态）** |
-| ![image-20200705151443466](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705151501.png) |
+| ![image-20200705151443466](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705151501.png) |
 |     **将test.txt文件add到暂存区、无commit（暂存状态）**      |
-| ![image-20200705152110233](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705152112.png) |
+| ![image-20200705152110233](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705152112.png) |
 |    **将test.txt文件commit提交到master主分支（提交状态）**    |
-| ![image-20200705152530569](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705152532.png) |
+| ![image-20200705152530569](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705152532.png) |
 |    **修改test.txt文件内容、无add、无commit（修改状态）**     |
-| ![image-20200705153153713](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705153156.png) |
+| ![image-20200705153153713](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705153156.png) |
 | **将处于修改状态的文件add并commit提交后再次查看文件状态就无任何文件状态了！** |
 
 
@@ -420,7 +420,7 @@
 
 |                          分支效果图                          |
 | :----------------------------------------------------------: |
-| ![image-20200705162301187](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705162304.png) |
+| ![image-20200705162301187](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705162304.png) |
 
 
 
@@ -444,7 +444,7 @@
 
 |                         多分支效果图                         |
 | :----------------------------------------------------------: |
-| ![image-20200705164651235](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705164653.png) |
+| ![image-20200705164651235](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705164653.png) |
 
 
 
@@ -485,11 +485,11 @@
 
 |                        分支冲突效果图                        |
 | :----------------------------------------------------------: |
-| ![image-20200705171535657](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705171537.png) |
+| ![image-20200705171535657](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705171537.png) |
 |                  **分支冲突错误提示信息：**                  |
 | `Auto-merging test.txt CONFLICT (content): Merge conflict in test.txt Automatic merge failed; fix conflicts and then commit the result.` |
 | **合并冲突后git将双方对文件的改动都保留了，并使用`<<<<`、`======`、`>>>>>`做了分隔** |
-| ![](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706200024.jpg) |
+| ![](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706200024.jpg) |
 
 
 
@@ -501,7 +501,7 @@
 
 |                          快照效果图                          |
 | :----------------------------------------------------------: |
-| ![image-20200705173736020](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705173738.png) |
+| ![image-20200705173736020](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705173738.png) |
 
 
 
@@ -516,9 +516,9 @@
 
 |                        快读合并效果图                        |
 | :----------------------------------------------------------: |
-| ![image-20200705180012469](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705180014.png) |
+| ![image-20200705180012469](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705180014.png) |
 |                      **三方合并效果图**                      |
-| ![image-20200705180047972](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705180049.png) |
+| ![image-20200705180047972](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705180049.png) |
 
 
 
@@ -544,15 +544,15 @@
 
 |                  注册GitHub账号（Sign up）                   |
 | :----------------------------------------------------------: |
-| ![image-20200705184032112](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705184034.png) |
+| ![image-20200705184032112](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705184034.png) |
 |                  **登录GitHub（Sign in）**                   |
-| ![image-20200705184303105](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705184305.png) |
+| ![image-20200705184303105](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705184305.png) |
 |               **右侧头像点击打开Setting设置**                |
-| ![image-20200705184420459](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705184424.png) |
+| ![image-20200705184420459](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705184424.png) |
 |                  **在Setting中创建SSH Key**                  |
-| ![image-20200705184806246](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705184808.png) |
+| ![image-20200705184806246](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705184808.png) |
 |                       **添加SSH Key**                        |
-| ![image-20200705185104567](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705185106.png) |
+| ![image-20200705185104567](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705185106.png) |
 
 
 
@@ -578,11 +578,11 @@
 
 |             右侧头像点击 + 后打开New repository              |
 | :----------------------------------------------------------: |
-| ![](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200707082204.png) |
+| ![](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200707082204.png) |
 |                         **创建仓库**                         |
-| ![image-20200705185948941](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705185950.png) |
+| ![image-20200705185948941](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705185950.png) |
 |                 **本地仓库关联GitHub服务器**                 |
-| ![image-20200705190934375](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200705190936.png) |
+| ![image-20200705190934375](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200705190936.png) |
 |   **做完以上步骤就可以在GitHub上看到我们所上传的文件了！**   |
 
 
@@ -747,7 +747,7 @@
 
 |                         设置关联Git                          |
 | :----------------------------------------------------------: |
-| ![image-20200706200827532](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706200830.png) |
+| ![image-20200706200827532](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706200830.png) |
 
 
 
@@ -757,10 +757,10 @@
 
 |                         设置忽略文件                         |
 | :----------------------------------------------------------: |
-| ![idea-创建仓库0](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706202234.jpg) |
+| ![idea-创建仓库0](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706202234.jpg) |
 |                      **初始化一个仓库**                      |
-| ![idea-创建仓库1](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706202312.jpg) |
-| ![idea-创建仓库2](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706202322.jpg) |
+| ![idea-创建仓库1](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706202312.jpg) |
+| ![idea-创建仓库2](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706202322.jpg) |
 
 
 
@@ -768,13 +768,13 @@
 
 |                  选择提交菜单，提交一个版本                  |
 | :----------------------------------------------------------: |
-| ![idea-commit](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706202420.jpg) |
+| ![idea-commit](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706202420.jpg) |
 
 |                  选择提交文件，定义提交信息                  |
 | :----------------------------------------------------------: |
-| ![idea-commit2](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706202600.jpg) |
+| ![idea-commit2](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706202600.jpg) |
 |      **之后会有些友好提示，可以忽略，点击“commit”即可**      |
-| ![idea-commit3](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706202641.jpg) |
+| ![idea-commit3](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706202641.jpg) |
 
 
 
@@ -782,11 +782,11 @@
 
 |                  点击右下角链接，创建新分支                  |
 | :----------------------------------------------------------: |
-| ![image-20200706203359233](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203401.png) |
+| ![image-20200706203359233](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203401.png) |
 |                         **新建分支**                         |
-| ![idea-新建分支2](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203408.jpg) |
+| ![idea-新建分支2](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203408.jpg) |
 |                       **查看当前分支**                       |
-| ![image-20200706203510723](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203512.png) |
+| ![image-20200706203510723](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203512.png) |
 
 
 
@@ -794,13 +794,13 @@
 
 |               先创建一个仓库，随后选择push菜单               |
 | :----------------------------------------------------------: |
-| ![idea-push](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203623.jpg) |
+| ![idea-push](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203623.jpg) |
 |                     **定义远程仓库地址**                     |
-| ![idea-push3](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203654.jpg) |
+| ![idea-push3](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203654.jpg) |
 |                       **开始push操作**                       |
-| ![idea-push4](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203719.jpg) |
+| ![idea-push4](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203719.jpg) |
 |                  **push成功后 ，弹窗提示**                   |
-| ![idea-push5](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203746.jpg) |
+| ![idea-push5](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203746.jpg) |
 
 
 
@@ -808,13 +808,13 @@
 
 |     找到GitHub或码云上的开源项目后复制链接，点击克隆菜单     |
 | :----------------------------------------------------------: |
-| ![idea-clone](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203921.jpg) |
+| ![idea-clone](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203921.jpg) |
 |                    **输入如远程仓库地址**                    |
-| ![idea-clone2](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706203944.jpg) |
+| ![idea-clone2](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706203944.jpg) |
 |                         **打开项目**                         |
-| ![idea-clone3](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706204004.jpg) |
+| ![idea-clone3](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706204004.jpg) |
 |                      **打开项目，选项**                      |
-| ![idea-clone4](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706204044.jpg) |
+| ![idea-clone4](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706204044.jpg) |
 
 
 
@@ -824,11 +824,11 @@
 
 |                         选择pull菜单                         |
 | :----------------------------------------------------------: |
-| ![idea-pull1](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706204219.jpg) |
+| ![idea-pull1](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706204219.jpg) |
 |                       **执行pull操作**                       |
-| ![idea-pull2](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706204245.jpg) |
+| ![idea-pull2](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706204245.jpg) |
 |                       **更新日志显示**                       |
-| ![idea-pull3](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706204259.jpg) |
+| ![idea-pull3](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706204259.jpg) |
 
 
 
@@ -836,9 +836,9 @@
 
 |                 冲突出现，弹窗中可以选择如下                 |
 | :----------------------------------------------------------: |
-| ![idea-冲突](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706204329.jpg) |
+| ![idea-冲突](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706204329.jpg) |
 |          **也可以直接修改冲突文件，然后commit即可**          |
-| ![idea-冲突2](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706204349.jpg) |
+| ![idea-冲突2](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706204349.jpg) |
 
 
 

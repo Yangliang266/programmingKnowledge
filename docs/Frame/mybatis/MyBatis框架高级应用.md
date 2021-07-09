@@ -658,6 +658,7 @@ public void updateUserById1() {
     SELECT id , name , author , publish , sort
     FROM t_books
     <where> 
+    	1 = 1
         <if test="id != null">
             id = #{id}
         </if>
@@ -826,7 +827,7 @@ List<User> selectUsersBatch(List<Integer> ids);
 	<include refid="selectUser"></include>
 	where id in
     <foreach collection="list" item="id" open="(" close=")" separator=",">
-    	(#{id})
+    	#{id}
     </foreach>
 </select>
     

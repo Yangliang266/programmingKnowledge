@@ -101,13 +101,13 @@
 >
 > **Maven下载地址：** [https://us.mirrors.quenda.co/apache/maven/maven-3/3.6.3/binaries/](https://us.mirrors.quenda.co/apache/maven/maven-3/3.6.3/binaries/)
 
-![image-20200616171323409](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616171325.png)
+![image-20200616171323409](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616171325.png)
 
 > 下载后将Maven解压到目录中就可以了！
 >
 > **注意：** 解压的目录与tomact服务器的形式是一样的，不要有中文及特殊符号！
 
-![image-20200616171637526](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616171639.png)
+![image-20200616171637526](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616171639.png)
 
 
 
@@ -139,13 +139,13 @@
 > - 如果看到如下图片maven的版本信息，证明maven安装配置成功！
 > - 在Maven的版本信息你就可以得知它依赖于jdk环境！
 
-![image-20200616172931556](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616172933.png)
+![image-20200616172931556](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616172933.png)
 
 
 
 #### 2.6 Maven项目模型图
 
-![](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617162537.png)
+![](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617162537.png)
 
 
 
@@ -163,7 +163,7 @@
 >
 > 4. 最后，将复制的此配置信息路径替换成自己创建的本地仓库目录路径，参考标号2的操作
 
-![image-20200616174928266](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616174931.png)
+![image-20200616174928266](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616174931.png)
 
 
 
@@ -201,7 +201,7 @@
 </activeProfiles>
 ```
 
-![image-20200616181057029](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616181059.png)
+![image-20200616181057029](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616181059.png)
 
 
 
@@ -249,7 +249,7 @@
 >
 > **依赖查找顺序：** 本地仓库 - > 私服 - > 公共仓库 - > 中央仓库
 
-![image-20200616184606968](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616184609.png)
+![image-20200616184606968](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616184609.png)
 
 
 
@@ -293,7 +293,7 @@
     </mirror>
 ```
 
-![image-20200616223651045](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616223653.png)
+![image-20200616223651045](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616223653.png)
 
 
 
@@ -321,7 +321,7 @@
 
 |                            无私服                            |                            有私服                            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![私服1](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617210526.png) | ![私服2](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617210530.png) |
+| ![私服1](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617210526.png) | ![私服2](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617210530.png) |
 
 
 
@@ -361,7 +361,7 @@
 
 |                           仓库列表                           |
 | :----------------------------------------------------------: |
-| ![私服_list](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617221828.jpg) |
+| ![私服_list](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617221828.jpg) |
 
 
 
@@ -375,15 +375,15 @@
 
 |           仓库组       注意：proxy的仓库排序在最后           |
 | :----------------------------------------------------------: |
-| ![私服_deploy2](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617222337.jpg) |
+| ![私服_deploy2](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617222337.jpg) |
 
 
 
 ###### 4.4.3.7 手动上传仓库
 
-![](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617222039.png)
+![](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617222039.png)
 
-![](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617222108.png)
+![](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617222108.png)
 
 
 
@@ -472,9 +472,9 @@
 
 |                        创建Maven项目                         |
 | :----------------------------------------------------------: |
-| ![image-20200616215847109](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616215854.png) |
+| ![image-20200616215847109](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616215854.png) |
 |                  **指定项目名称和项目位置**                  |
-| ![image-20200616220455702](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616220457.png) |
+| ![image-20200616220455702](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616220457.png) |
 
 
 
@@ -526,9 +526,9 @@
 
 |                    在全局设置中关联Maven                     |
 | :----------------------------------------------------------: |
-| ![image-20200616222756521](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616222759.png) |
+| ![image-20200616222756521](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616222759.png) |
 |      **Maven项目展示** （缺少test包下resources文件夹）       |
-| ![image-20200616224937892](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616224940.png) |
+| ![image-20200616224937892](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616224940.png) |
 
 
 
@@ -538,11 +538,11 @@
 
 |                   创建存放测试配置的文件夹                   |
 | :----------------------------------------------------------: |
-| ![image-20200616225355373](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616225358.png) |
+| ![image-20200616225355373](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616225358.png) |
 |   **指定文件夹名称** （下拉框选择resources文件夹创建即可）   |
-| ![image-20200616225859663](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616225902.png) |
+| ![image-20200616225859663](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616225902.png) |
 |        **文件目录结构展示** （完整Maven规范目录结构）        |
-| ![image-20200616230042781](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200616230044.png) |
+| ![image-20200616230042781](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200616230044.png) |
 
 
 
@@ -621,11 +621,11 @@
 
 |                         查找jar文件                          |
 | :----------------------------------------------------------: |
-| ![image-20200616111418839](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617002627.png) |
+| ![image-20200616111418839](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617002627.png) |
 |                      **jar文件的选择**                       |
-| ![image-20200616112444879](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617002659.png) |
+| ![image-20200616112444879](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617002659.png) |
 |                       **Copy依赖坐标**                       |
-| ![image-20200617003002005](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617003004.png) |
+| ![image-20200617003002005](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617003004.png) |
 
 
 
@@ -640,7 +640,7 @@
 
 |                           导入依赖                           |
 | :----------------------------------------------------------: |
-| ![image-20200617003853705](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617004552.png) |
+| ![image-20200617003853705](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617004552.png) |
 
 
 
@@ -650,7 +650,7 @@
 
 |                     同步下载依赖到项目中                     |
 | :----------------------------------------------------------: |
-| ![image-20200617004515463](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617004620.png) |
+| ![image-20200617004515463](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617004620.png) |
 
 
 
@@ -660,7 +660,7 @@
 
 |                           查看依赖                           |
 | :----------------------------------------------------------: |
-| ![image-20200617005635304](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617005637.png) |
+| ![image-20200617005635304](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617005637.png) |
 
 
 
@@ -699,7 +699,7 @@
         </dependency>
 ```
 
-![image-20200617123210482](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617123213.png)
+![image-20200617123210482](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617123213.png)
 
 
 
@@ -729,26 +729,26 @@
 
 |                     IDEA自动构建项目结构                     |
 | :----------------------------------------------------------: |
-| ![image-20200617164915737](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617165053.png) |
+| ![image-20200617164915737](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617165053.png) |
 
 
 
 |                     手动构建web项目结构                      |
 | :----------------------------------------------------------: |
 |              **基于main目录下创建webapp文件夹**              |
-| ![image-20200617124249878](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617124254.png) |
-| ![image-20200617124319926](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617124321.png) |
+| ![image-20200617124249878](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617124254.png) |
+| ![image-20200617124319926](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617124321.png) |
 |             **基于webapp目录创建WEB-INF文件夹**              |
-| ![image-20200617124624648](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617124626.png) |
+| ![image-20200617124624648](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617124626.png) |
 |              **基于WEB-INF目录创建web.xml文件**              |
-| ![image-20200617125038803](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617125041.png) |
-| ![image-20200617125055216](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617125056.png) |
+| ![image-20200617125038803](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617125041.png) |
+| ![image-20200617125055216](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617125056.png) |
 |                     **xml文件内容展示**                      |
-| ![image-20200617125729115](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617125730.png) |
+| ![image-20200617125729115](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617125730.png) |
 |             **基于webapp目录创建index.jsp文件**              |
-| ![image-20200617125613861](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617125615.png) |
+| ![image-20200617125613861](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617125615.png) |
 |            **目录展示** （完整的web项目目录结构）            |
-| ![image-20200617125808227](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617125810.png) |
+| ![image-20200617125808227](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617125810.png) |
 
 
 
@@ -760,7 +760,7 @@
 
 |                        添加tomact服务                        |
 | :----------------------------------------------------------: |
-| ![image-20200617131801103](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617131804.png) |
+| ![image-20200617131801103](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617131804.png) |
 
 
 
@@ -879,13 +879,13 @@
 
 > jstl依赖默认没有compile标识的生命周期。因为在依赖中不指定生命周期就是默认指定适用于所有阶段的生命周期，其默认标识为compile。
 
-![image-20200617135847510](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617135849.png)
+![image-20200617135847510](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617135849.png)
 
 ***provided*** 
 
 > servlet和jsp依赖默认指定provided标识的生命周期。因为我们在servlet或jsp代码时是需要这两个依赖的，但是我们将项目部署到tomact中，本地tomact目录的lib文件夹下也会有一些jar文件，所以这造成了一种依赖冲突。为了避免这种依赖冲突我们需要指定依赖的生命周期为编译和测试运行阶段。这样我们在书写代码时，编译期也有有依赖可以使用，不会飘红，而在过了编译期后项目部署到了tomact中，该依赖声生命就会被结束掉了，不会影响tomact服务器内置依赖的使用！
 
-![image-20200617135818392](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617135820.png)
+![image-20200617135818392](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617135820.png)
 
 ***test*** 
 
@@ -893,20 +893,20 @@
 >
 > 简单来说，在test文件夹内创建的测试类，使用@Test注解不会有任何问题。如果换做在main文件夹和其他文件夹中创建测试类，使用@Test注解就会因没有依赖注入而报错。
 
-![image-20200617140515452](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617140517.png)
+![image-20200617140515452](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617140517.png)
 
 ***runtime*** 
 
 > 我们在添加mysql驱动的依赖时，你会发现它并没有指定生命周期为runtime。这是因为我们在书写jdbc工具类的操作时，如果在编译期没有mysql驱动的依赖，它并不会飘红报错。如果没有依赖只有在我们运行的时候才会发生报错，并告知mysql驱动依赖未找到。所以，这就显得runtime这个依赖生命周期十分的鸡肋。因此，可以不指定该生命周期。
 
-![image-20200617141145812](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617141147.png)
+![image-20200617141145812](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617141147.png)
 
 ***system*** 
 
 > 当依赖的生命周期设置为system时，表示该依赖项是我们自己提供的，不需要Maven到仓库里面去找。
 > 指定scope为system需要与另一个属性元素`systemPath`一起使用，它表示该依赖项在当前系统的位置，使用的是绝对路径。由于此类依赖不是通过 Maven 仓库解析的，而且往往与本机系统绑定，可能造成构建的不可移植，因此应该慎用。`systemPath` 元素可以引用环境变量。
 
-![image-20200617142301138](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617142302.png)
+![image-20200617142301138](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617142302.png)
 
 
 
@@ -914,13 +914,13 @@
 
 #### 7.1 项目的构建过程
 
-![](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617162455.png)
+![](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617162455.png)
 
 #### 7.2 常用构建命令
 
 > 一般命令的键入在IDEA中的框中键入命令就可以！
 
-![image-20200617170717904](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200617170719.png)
+![image-20200617170717904](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/maven/application/20200617170719.png)
 
 | 命令                | 描述                       |
 | ------------------- | -------------------------- |

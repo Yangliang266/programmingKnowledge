@@ -29,9 +29,9 @@ LoadBalance load=ExtensionLoader.
 
 ##### 实现
 
-> 1 在 META-INFO/dubbo/ 新建继承AbstractLoadBalance的类
+> 1 新建继承AbstractLoadBalance的类
 >
-> 2 META-INFO/dubbo +文件名（带有@SPI类的全路径）
+> 2 META-INFO/dubbo +文件名（带有@SPI类的全路径，即要实现的spi的）
 >
 >    key=自定义名称， value=新建类的全路径
 >

@@ -61,3 +61,110 @@ tar -zxvf mysql-8.0.22-linux-glibc2.12-x86_64.tar.gz
     - cd [目标路径] [目录级别]
     - 注意：路径可以填写内容，比如需要找到的文件名称和后缀等等
     - 
+
+
+
+
+
+清除缓存
+
+1. 当前内存使用情况：free
+
+2. sync（一定要在第三部之前运行这个命令）
+
+3. echo 3 > /proc/sys/vm/drop_caches
+
+
+
+增加启动进程别名
+
+> vim ~/.bashrc
+
+通过进程名查看pid
+
+> ps -ef|grep xxxx
+
+通过pid查询进程名
+
+> netstat -anp|grep pid
+
+> ps -aux|grep pid
+
+查询pid 运行状态
+
+> cat /proc/pid/status
+
+查询pid 内存使用
+
+> top -p pid
+
+查询文件名所在目录
+
+> find / -name xxxx
+
+
+
+
+
+## linux相关操作
+
+### 1 命令模式
+
+#### 1.1 开始执行命令
+
+
+
+#### 1.2 基础命令操作
+
+##### 1.2.1 系统管理与维护
+
+pwt
+
+> 显示当前目录
+
+cd
+
+> cd 显示主目录
+>
+> cd - 回到上回操作目录
+>
+> cd .. 回到上一级目录
+>
+> cd ~用户 切换到指定用户的主目录
+
+ps
+
+> 进程的监控
+>
+> ps -ef|grep xxxx
+
+top
+
+> 动态的查看进程的运行的状态
+>
+> top -p xxxx
+
+#### 1.2 几个热键
+
+ctrl+c 
+
+> 强制命令结束
+
+ctrl+d
+
+> 强制退出shell
+
+tab
+
+> 补足
+>
+> 列出所有相关命令 - m两次tab 列出所有关于m的命令
+
+
+
+
+
+
+
+
+

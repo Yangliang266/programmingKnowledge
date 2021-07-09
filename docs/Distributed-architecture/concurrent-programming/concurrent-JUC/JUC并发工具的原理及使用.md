@@ -82,8 +82,9 @@
       1. 设置state次数，在state=0之前阻塞
    2. `countDownLatch.await();`
       1. 实现线程的阻塞与join相似阻塞当前队列
+      2. 当为0时，进行唤醒
    3. `countDownLatch.countDown();`
-      1. state次数减一，当为0时，进行唤醒
+      1. state次数减一
       2. 实现线程的唤醒（全部唤醒）
       3. 唤醒的传递`setHeadAndPropagate(node, r)`
 2. 特点
@@ -98,10 +99,12 @@
    1. `Semaphore semaphore = new Semaphore(1);`
       1. 设置令牌数（线程数），即只允许的线程数运行
    2. `semaphore.acquire();`
-      1. 获得令牌继续执行
-      2. 未获得令牌的进行阻塞
+      1. 减1
+      2. 如果信号量大于0，获得令牌继续执行
+      3. 否则，进行阻塞
    3. `semaphore.release();`
-      1. 释放令牌
+      1. 加1
+      2. 释放令牌
 2. 特点
    1. 和上面类似，只是表现形式不一样，都是控制线程的方案
 

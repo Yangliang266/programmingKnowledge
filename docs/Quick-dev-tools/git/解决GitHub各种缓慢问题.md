@@ -43,7 +43,7 @@
 |              解决GitHub访问缓慢以及图片显示问题              |
 | :----------------------------------------------------------: |
 | **延`C:\Windows\System32\drivers\etc\host`路径打开并编辑host文件，并添加以下内容** |
-| ![image-20200706213654926](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706213656.png) |
+| ![image-20200706213654926](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706213656.png) |
 |     **添加以上内容即可解决访问缓慢以及图片不显示等问题**     |
 
 ------
@@ -51,8 +51,8 @@
 |                 解决push、pull等命令缓慢问题                 |
 | :----------------------------------------------------------: |
 | **修改本地Git目录`F:\Program Files\Git\etc\ssh\ssh_config`文件设置使用使用ssh来连接git 服务器** |
-| ![image-20200706214252603](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706214254.png) |
+| ![image-20200706214252603](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706214254.png) |
 | **修改本地Git目录`F:\Program Files\Git\etc\ssh\sshd_config`文件内的useDNS** |
-| ![image-20200706214549549](https://gitee.com/Ziphtracks/Figurebed/raw/master/img/1/20200706214551.png) |
+| ![image-20200706214549549](https://yliang.oss-cn-shanghai.aliyuncs.com/img/programming/tools/git/20200706214551.png) |
 |       **修改好后即可解决pull和push等命令操作缓慢问题**       |
 

@@ -28,7 +28,7 @@
 
 #### 索引的特点
 
-<img src="https://raw.githubusercontent.com/YangLiang-SoftWise/images/master/img/索引1.png" alt="img" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/YangLiang266/images/master/img/索引1.png" alt="img" style="zoom:80%;" />
 
 1 根节点与支节点不存储数据，存放关键字与引用
 
@@ -233,7 +233,7 @@ CREATE TABLE `wmills` (
 
 <img src="https://raw.githubusercontent.com/YangLiang-SoftWise/images/master/img/索引8.png" alt="img" style="zoom:80%;" />
 
-<img src="https://raw.githubusercontent.com/YangLiang-SoftWise/images/master/img/索引7.png" alt="img" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/YangLiang266/images/master/img/索引7.png" alt="img" style="zoom:80%;" />
 
 
 

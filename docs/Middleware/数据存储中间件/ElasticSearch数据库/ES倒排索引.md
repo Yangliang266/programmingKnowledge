@@ -255,16 +255,12 @@ Lucene：最先进、功能最强大的搜索库，直接基于lucene开发，�
 用Mysql这样的数据库存储就会容易想到建立一张User表，有name，sex等字段，在Elasticsearch里这就是一个文档，当然这个文档会属于一个User的类型，各种各样的类型存在于一个索引当中。这里有一份简易的将Elasticsearch和关系型数据术语对照表:
 
 ```
-关系数据库 ⇒ 数据库 ⇒ 表 ⇒ 行
+关系数据库 ⇒ 数据库 ⇒ 表 ⇒ 行 ⇒ 列(Columns)
 
-⇒ 列(Columns)
-
-Elasticsearch ⇒ 索引(Index) ⇒ 类型(type) （7.x版本正式将type剔除） ⇒ 文档 (Docments)
-
-⇒ 字段(Fields)
+Elasticsearch ⇒ 索引(Index) ⇒ 类型(type) （7.x版本正式将type剔除） ⇒ 文档 (Docments) ⇒ 字段(Fields)
 ```
 
-一个 Elasticsearch 集群可以包含多个索引(数据库)，也就是说其中包含了很多类型(表)。这些类型中包含了很多的文档(行)，然后每个文档中又包含了很多的字段(列)。Elasticsearch的交互，可以使用JavaAPI，也可以直接使用HTTP的Restful API方式， 
+一个 Elasticsearch 集群可以包含多个索引(数据库)，也就是说其中包含了很多类型(表)。这些类型中包含了很多的文档(行)，然后每个文档中又包含了很多的字段(列)。Elasticsearch的交互，可以使用JavaAPI，也可以直接使用HTTP的Restful API方式
 
 #### 5.2 索引
 

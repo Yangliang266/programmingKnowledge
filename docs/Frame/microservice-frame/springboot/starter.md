@@ -39,7 +39,7 @@ public class RedissonPoolProperties {
 
 ```java
 @Configuration
-// 使redisson配置生效
+// 使redisson配置生效，使RedissonProperties加载到bean容器中
 @EnableConfigurationProperties(RedissonProperties.class)
 // 存在reddison包才能加载
 @ConditionalOnClass({Redisson.class})
